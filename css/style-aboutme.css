@@ -1,0 +1,126 @@
+/* About Me  Page Styles */
+
+/* Content Area */
+.aboutme-content {
+    float: right;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #e1ddd9;
+    flex: 1;
+}
+
+/* About Me Box */
+.aboutme-content h2 {
+    position: relative;
+    padding-left: 90px;
+    font-size: 24px;
+    color: #a63d2d;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgba(166, 61, 45, 0.25);
+    padding-bottom: 5px;
+}
+
+.aboutme-content h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 10px;
+    background-color: #a63d2d;
+    border-radius: 3px;
+}
+
+.about-box {
+    background: #ece8e3;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 40px;
+}
+
+/* Gallery Slideshow */
+.slideshow-container {
+    text-align: center;
+    margin: 0 auto 40px auto;
+    position: relative;
+    display: block;
+}
+
+.slideshow-container img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.main-image {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s, transform 0.2s;
+}
+
+.thumbnail.active,
+.thumbnail:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* Hobbies Grid */
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+}
+
+.hobby-card {
+    background: #f9f9f9c9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.hobby-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.hobby-card p {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.hobby-card:hover {
+    transform: translateY(-5px);
+}
