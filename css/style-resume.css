@@ -1,0 +1,234 @@
+/* Resume Page Styles */
+
+/* Container for top buttons */
+.top-buttons {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    gap: 12px;  /* spacing between buttons */
+    z-index: 999;
+    background: none;  /* no background on container */
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+/* Resume Page Buttons styling */
+.resume-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(145deg, #e9e2d5, #e0c490);
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.resume-button i {
+    font-size: 18px;
+}
+
+.resume-button:hover {
+    background: linear-gradient(145deg, #574bcc, #6c63ff);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.25);
+}
+
+.resume-content {
+    float: right;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #e1ddd9;
+    flex: 1;
+}
+
+.resume-content h2 {
+    font-size: 24px;
+    color: #a63d2d;
+    margin: 40px 0 20px;
+    position: relative;
+    border-bottom: 2px solid rgba(166, 61, 45, 0.25);
+    padding-bottom: 5px;
+    padding-left: 90px;
+}
+
+.resume-content h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 10px;
+    background-color: #a63d2d;
+    border-radius: 3px; /* smooth edges */
+}
+
+.resume-item {
+    margin-bottom: 25px;
+}
+
+.education-item, .experience-item {
+    margin-bottom: 28px;
+}
+
+.edu-header, .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.university, .company {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.degree, .position {
+    font-style: italic;
+    color: #555;
+    font-size: 16px;
+    margin: 5px 0;
+    color: #444;
+}
+
+.duration {
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+}
+
+.details {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Skills Section Container */
+.skills-section {
+    margin-top: 40px;
+}
+
+.skills-section h2 {
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+
+.skill-category {
+    margin-bottom: 20px;
+}
+
+.skill-category h3 {
+    font-size: 18px;
+    margin-bottom: 28px;
+    color: #333;
+}
+
+/* Skill Icons Container */
+.skill-category .icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+
+.skill-category .icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Base icon styling */
+.skill-category img {
+    width: auto;
+    height: 40px;
+    object-fit: contain;
+    padding: 4px;
+    border-radius: 4px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.skill-category img:hover {
+    transform: scale(1.6);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+
+/* Recommendations Section */
+.recommendations {
+    margin-top: 60px;
+}
+
+.recommendations h2 {
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+
+/* Grid layout for recommendation cards */
+.recommendation-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* Recommendation cards */
+.recommendation-card {
+    background: #f9f9f9c9;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 280px;
+}
+
+.recommendation-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 25px 0 15px;
+    color: #444;
+}
+
+.recommendation-card .person {
+    margin: 10px 0 0;
+    text-align: left;
+    font-size: 13px;
+    color: #333;
+}
+
+.recommendation-card .person strong {
+    font-size: 15px;
+    display: block;
+    margin-top: 2px;
+}
+
+.recommendation-card .person span {
+    font-size: 13px;
+    color: #555;
+    display: block;
+    margin-top: 2px;
+}
+
+.recommendation-card .quote {
+    font-size: 14px;
+    color: #333;
+    margin-top: 15px;
+    flex-grow: 1;   /* allows text to expand evenly */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .recommendation-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
