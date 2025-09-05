@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="../css/style-common.css">
+    <link rel="stylesheet" href="../css/style-resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Home & Download Buttons -->
+    <div class="top-buttons">
+        <a href="../index.html" class="resume-button">
+            <i class="fas fa-home"></i> Home
+        </a>
+        <a href="../documents/AnshitaAishwarya_Resume.pdf" class="resume-button" download>
+            <i class="fas fa-download"></i> Download Resume
+        </a>
+    </div>
+
+    <div class="container">
+        
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <img src="../images/profile_pic.jpg" alt="Profile Picture" class="profile-pic">
+
+            <nav class="nav-tabs">
+                <a href="resume.html" class="active">Resume</a>
+                <a href="projects.html">Projects</a>
+                <a href="aboutme.html">About Me</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="resume-content">
+            <section>
+                <h2>Education</h2>
+
+                <div class="education-item">
+                    <span class="university">Northeastern University, Boston MA</span>
+                    <div class="edu-header">
+                        <span class="degree">Master of Science, Data Analytics Engineering</span>
+                        <span class="duration"><i>Sep 2021 - July 2023</i></span>
+                    </div>
+                    <div class="details">
+                        <p><strong>GPA:</strong> 3.8</p>
+                        <p><strong>Relevant Coursework:</strong> Data Mining, Machine Learning, Big Data Analytics, Data Visualization, Database Management Systems</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <span class="university">Visvesvaraya Technological University, Bangalore, India</span>
+                    <div class="edu-header">
+                        <span class="degree">Bachelor of Engineering, Telecommunication Engineering</span>
+                        <span class="duration"><i>Sep 2013 - May 2017</i></span>
+                    </div>
+                    <div class="details">
+                        <p><strong>GPA:</strong> 3.6</p>
+                        <p><strong>Relevant Coursework:</strong> Data Structures, Object Oriented Programming, Algorithms, Computer Networks, Database Management</p>
+                    </div>
+                </div>   
+            </section>
+
+            <section>
+                <h2>Professional Experience</h2>
+
+                <div class="experience-item">
+                    <span class="company">UF Health Cancer Center, Gainesville FL</span>
+                    <div class="exp-header">
+                        <span class="position">Database Analyst III</span>
+                        <span class="duration"><i>Apr 2024 - Present</i></span>
+                    </div>
+                    <ul>
+                        <li>Designing and optimizing database structures by creating and updating tables, views, and ETL scripts to load and export research data,
+                            improving query performance by leveraging cron-based automation for recurring jobs.</li>
+                        <li>Building and refining 10+ Power BI dashboards, applying advanced Power Query transformations, DAX calculations,and multi-source joins;
+                            adapting data models to accommodate evolving data structures and custom visualizations.</li>
+                        <li>Developing a Python-based network graph visualization tool to make complex research collaborations more intuitive,
+                            enhancing decision-making for research administrators.</li>
+                        <li>Automating development environment updates by creating a Bash script that pulls and refreshes data from test to dev environments,
+                            reducing manual deployment time by over 50%.</li>
+                        <li>Implementing a PHP-based cron job system to automate monthly data extraction from the research database and deliver results via email to stakeholders,
+                            saving 3+ hours of manual work per month.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <span class="company">Changing the Present, New York NY</span>
+                    <div class="exp-header">
+                        <span class="position">Data Analyst (part-time)</span>
+                        <span class="duration"><i>Sep 2023 - Jan 2024</i></span>
+                    </div>
+                    <ul>
+                        <li>Designed and implemented scalable MySQL databases to streamline organizational data management, improving efficiency of analysis for nonprofit initiatives.</li>
+                        <li>Hosted and maintained databases on AWS, strengthening data security and ensuring reliable, real-time accessibility for stakeholders.</li>
+                        <li>Partnered with cross-functional teams to integrate analytics with Shopify, enhancing the NGO’s online presence and delivering a more engaging
+                            user experience for donors and volunteers.</li>
+                        <li>Optimized data models for quality, consistency, and reliability, enabling accurate insights that directly informed high-impact social initiatives.</li>
+                        <li>Developed data-driven engagement strategies that increased website interactions and participation in nonprofit activities,
+                            amplifying community involvement and awareness.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <span class="company">Accenture, Bangalore, India</span>
+                    <div class="exp-header">
+                        <span class="position">Business Analyst II</span>
+                        <span class="duration"><i>July 2019 - July 2021</i></span>
+                    </div>
+                    <ul>
+                        <li>Accelerated ETL process by 25% via robust SSIS pipelines, automating complex modeling jobs for data extracted from SAP ERP systems,
+                            SFTP server and ServiceNow catalogs through API calls.</li>
+                        <li>Architected centralized reporting data warehouse and devised advanced SQL queries for optimized data retrieval process.</li>
+                        <li>Designed 10+ interactive Power BI reports and dashboards leveraging enterprise data warehouses to communicate data insights,
+                            improving client’s strategic decision-making by 75% and eliminating 10 hours of weekly manual reporting.</li>
+                        <li>Led weekly sprint meetings as a subject matter expert for discussing business requirements, aligning stakeholder input with Agile scope,
+                            monitoring the KPIs (key performance indicators) for status quo, and suggesting process improvements.</li>
+                    </ul>
+                    <br>
+                    <div class="exp-header">
+                        <span class="position">Business Analyst I</span>
+                        <span class="duration"><i>Sep 2017 - Jun 2019</i></span>
+                    </div>
+                    <ul>
+                        <li>Spearheaded 25+ client go-live with continuous delivery of SaaS-based invoice processing solution & facilitated production support
+                            with root cause analysis and resolution reducing turnaround time by 10%.</li>
+                        <li>Streamlined JIRA workflows and multi-client boards thus boosting team efficiency and reducing issue tracking errors by 15%.</li>
+                        <li>Collaborated with cross-functional teams to automate daily reports from databases ensuring timely delivery to stakeholders.</li>
+                    </ul>
+            </section>
+
+            <section>
+                <h2>Leadership Experience</h2>
+
+                <div class="experience-item">
+                    <span class="company">Northeastern University, Boston MA</span>
+                    <div class="exp-header">
+                        <span class="position">Graduate Teaching Assistant</span>
+                        <span class="duration"><i>Jan 2023 - Apr 2023</i></span>
+                    </div>
+                    <ul>
+                        <li>Collaborated with professor to enhance course structure, design exam papers and facilitate classroom activities for 180+ students.</li>
+                        <li>Evaluated student assignments, proctored exams and provided feedback on student performance and class engagement.</li>
+                        <li>Supported students through weekly office hours, addressing doubts and promoting understanding of core data mining concepts.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <span class="company">DAESO, Northeastern University, Boston MA</span>
+                    <div class="exp-header">
+                        <span class="position">Treasurer</span>
+                        <span class="duration"><i>Jan 2023 - Apr 2023</i></span>
+                    </div>
+                    <ul>
+                        <li>Managed the club's budget, sponsorships, and partnerships to ensure financial sustainability and growth.</li>
+                        <li>Orchestrated the finances budget development for high-impact events, meticulously managing funding requests,
+                            and ensuring seamless processing of reimbursement requests.</li>
+                        <li>Led a team of 10 members to organize events, workshops, and networking opportunities for club members.</li>
+                        <li>Managed social media accounts to promote events, share updates, and engage with the data science community.</li>
+                    </ul>
+                    <br>
+                    <div class="exp-header">
+                        <span class="position">Associate Hackathon Director</span>
+                        <span class="duration"><i>Jan 2022 - Dec 2022</i></span>
+                    </div>
+                    <ul>
+                        <li>Organized several data hackathons engaging over 100+ data science enthusiasts to test their analytical & programming capabilities.</li>
+                        <li>Coordinated with industry professionals to host guest lectures and panel discussions on emerging trends in data science.</li>
+                        <li>Coordinated logistics, secured sponsorships, and managed event promotion through social media and campus channels.</li>
+                        <li>Facilitated workshops and mentorship sessions, providing guidance on skill development and presentation.</li>
+                        
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Skills</h2>
+
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="icons">
+                        <a href="https://www.python.org/" target="_blank"><img src="../images/logos/python.svg" title="Python"></a>
+                        <a href="https://www.r-project.org/" target="_blank"><img src="../images/logos/R.svg" title="R"></a>
+                        <a href="https://www.w3schools.com/sql/sql_intro.asp" target="_blank"><img src="../images/logos/sql.svg" title="SQL"></a>
+                        <a href="https://tiswww.case.edu/php/chet/bash/bashtop.html" target="_blank"><img src="../images/logos/bash.svg" title="Bash"></a>
+                        <a href="https://www.php.net/" target="_blank"><img src="../images/logos/php.svg" title="PHP"></a>
+                        <a href="https://www.w3.org/html/" target="_blank"><img src="../images/logos/html.svg" title="HTML"></a>
+                        <a href="https://www.w3.org/Style/CSS/" target="_blank"><img src="../images/logos/css.svg" title="CSS"></a>
+                        <a href="https://www.javascript.com/" target="_blank"><img src="../images/logos/js.svg" title="JavaScript"></a>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Business Intelligence Tools</h3>
+                    <div class="icons">
+                        <a href="https://powerbi.microsoft.com/" target="_blank"><img src="../images/logos/mspowerbi.svg" title="Microsoft Power BI"></a>
+                        <a href="https://www.tableau.com/" target="_blank"><img src="../images/logos/tableau.svg" title="Tableau"></a>
+                        <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"><img src="../images/logos/msexcel.svg" title="Microsoft Excel"></a>
+                        <a href="https://looker.com/" target="_blank"><img src="../images/logos/looker.svg" title="Looker"></a>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Databases & Data Integration</h3>
+                    <div class="icons">
+                        <a href="https://www.mysql.com/" target="_blank"><img src="../images/logos/mysql.svg" title="MySQL"></a>
+                        <a href="https://www.oracle.com/database/technologies/appdev/sql.html" target="_blank"><img src="../images/logos/oracle.svg" title="Oracle"></a>
+                        <a href="https://www.snowflake.com/" target="_blank"><img src="../images/logos/snowflake.svg" title="Snowflake"></a>
+                        <a href="https://www.microsoft.com/en-us/sql-server" target="_blank"><img src="../images/logos/mssqlserver.svg" title="Microsoft SQL Server"></a>
+                        <a href="https://www.postgresql.org/" target="_blank"><img src="../images/logos/postgresql.svg" title="PostgreSQL"></a>
+                        <a href="https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services" target="_blank">
+                            <img src="../images/logos/ssis.svg" title="SQL Server Integration Services (SSIS)"></a>
+                        <a href="https://www.talend.com/" target="_blank"><img src="../images/logos/talend.svg" title="Talend"></a>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Cloud Platforms</h3>
+                    <div class="icons">
+                        <a href="https://aws.amazon.com/" target="_blank"><img src="../images/logos/aws.svg" title="Amazon Web Services (AWS)"></a>
+                        <a href="https://cloud.google.com/" target="_blank"><img src="../images/logos/gcp.svg" title="Google Cloud Platform (GCP)"></a>                   
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Other Tools</h3>
+                    <div class="icons">
+                        <a href="https://git-scm.com/" target="_blank"><img src="../images/logos/git.svg" title="Git"></a>
+                        <a href="https://www.github.com/" target="_blank"><img src="../images/logos/github.svg" title="GitHub"></a>
+                        <a href="https://code.visualstudio.com/" target="_blank"><img src="../images/logos/vscode.svg" title="Visual Studio Code"></a>
+                        <a href="https://jupyter.org/" target="_blank"><img src="../images/logos/jupyter.svg" title="Jupyter Notebook"></a>
+                        <a href="https://www.atlassian.com/software/jira" target="_blank"><img src="../images/logos/jira.svg" title="JIRA"></a>
+                        <a href="https://www.trello.com/" target="_blank"><img src="../images/logos/trello.svg" title="Trello"></a>
+                        <a href="https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration" target="_blank"><img src="../images/logos/sharepoint.svg" title="SharePoint"></a>
+                        <a href="https://www.postman.com/" target="_blank"><img src="../images/logos/postman.svg" title="Postman"></a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Recommendations</h2>
+
+                <div class="recommendation-grid">
+
+                    <div class="recommendation-card">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <div class="person">
+                            <strong>Dr. A R Aswatha</strong><br>
+                            <em>Professor and Head of Dept.</em><br>
+                            <span>Visvesvaraya Technological University</span>
+                        </div>
+                        <div class="quote">
+                            <p>"Anshita has always been a top-performer on the academic front. She is an inquisitive learner and has a knack for problem solving.
+                            She completed her final year project under my guidance during which I found her to be hardowking and disciplined. She is a stellar
+                            performer and I am sure she will excel in her career."</p>
+                        </div>
+                        <i class="fas fa-quote-right quote-icon"></i>
+                    </div>
+
+                    <div class="recommendation-card">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <div class="person">
+                            <strong>Harsh Katiyar</strong><br>
+                            <em>Senior Manager</em><br>
+                            <span>Accenture, Bangalore</span>
+                        </div>
+                        <div class="quote">
+                            <p>"Anshita is an accomplished multitasker with an ability to work under minimal supervision. She is reliable and responsible and has
+                            been a go-to person of the team. The team is fortunate to have an organized and diligent worker like her." </p>
+                        </div>
+                        <i class="fas fa-quote-right quote-icon"></i>
+                    </div>
+
+                    <div class="recommendation-card">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <div class="person">
+                            <strong>Abdul Aziz</strong><br>
+                            <em>Associate Manager</em><br>
+                            <span>Accenture, Bangalore</span>
+                        </div>
+                        <div class="quote">
+                            <p>"Anshita is a quick learner and very committed towards her responsibilities. She has effortlessly worked on the end-to-end process
+                            delivery directly interacting with stakeholders and comprehending business requirements."</p>
+                        </div>
+                        <i class="fas fa-quote-right quote-icon"></i>
+                    </div>
+
+                    <div class="recommendation-card">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <div class="person">
+                            <strong>Unnati Ghodki</strong><br>
+                            <em>Co-worker</em><br>
+                            <span>Accenture, Bangalore</span>
+                        </div>
+                        <div class="quote">
+                            <p>"Being a part of a nuclear team, Anshita has always played different roles at times, from developing to managing and delivering a
+                            project, whenever required. I learned a lot from her from a technical, organizational and managerial perspective."</p>
+                        </div>
+                        <i class="fas fa-quote-right quote-icon"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-title">Reach out:</p>
+        <div class="footer-links">
+            <a href="mailto:anshaish2009@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+            <a href="https://www.linkedin.com/in/anshitaaishwarya" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/anshi1995" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
