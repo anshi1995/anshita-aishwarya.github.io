@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="../css/style-common.css">
+    <link rel="stylesheet" href="../css/style-aboutme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Home Button -->
+    <a href="../index.html" class="home-button">
+        <i class="fas fa-home"></i> Home
+    </a>
+
+    <div class="container">
+        
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <img src="../images/profile_pic.jpg" alt="Profile Picture" class="profile-pic">
+
+            <nav class="nav-tabs">
+                <a href="resume.html">Resume</a>
+                <a href="projects.html">Projects</a>
+                <a href="aboutme.html" class="active">About Me</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+       <div class="aboutme-content">
+            <section class="about-box">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I’m <strong>Anshita</strong>! I’m passionate about data, technology, and solving real-world problems with analytics.
+                    I love collaborating with diverse teams, building data-driven solutions, and continuously exploring new tools and techniques that help turn ideas into impact.
+                    Beyond work, I’m deeply curious about emerging technologies and enjoy sharing knowledge with others. 
+                </p>
+                <br>
+                <p>
+                    At the same time, I enjoy finding meaning in the little things—whether that’s experimenting in the kitchen, exploring new places, or trying out different hobbies that keep life colorful.
+                    I also love activities that ground me, from quiet journaling sessions to long evening walks.
+                    I’ve always been inspired by stories, cultures, and connections that push me to grow and see the world through fresh perspectives.
+                    I believe balance comes from curiosity, creativity, and the connections we build along the way.
+            </section>
+
+      <!-- Slideshow Section -->
+        <section class="slideshow-section">
+            <h2>Gallery</h2>
+            <div class="slideshow-container">
+                <div class="main-image">
+                    <img id="mainImg" src="../images/aboutme/image1.png" alt="Main Slide">
+                    <div class="caption" id="caption">Organizing a social event at NU Sanskriti</div>
+                </div>
+                <div class="thumbnail-container">
+                    <img src="../images/aboutme/image1.png" class="thumbnail active" alt="Thumb 1" data-caption="Organizing a social event at NU Sanskriti">
+                    <img src="../images/aboutme/image2.png" class="thumbnail" alt="Thumb 2" data-caption="Day 1 at Northeastern University">
+                    <img src="../images/aboutme/image3.png" class="thumbnail" alt="Thumb 3" data-caption="Class of Computations and Visualization">
+                    <img src="../images/aboutme/image4.png" class="thumbnail" alt="Thumb 4" data-caption="Working on assignments at the library">
+                    <img src="../images/aboutme/image5.png" class="thumbnail" alt="Thumb 4" data-caption="Organizing Hackathon at DAESO">
+                    <img src="../images/aboutme/image6.png" class="thumbnail" alt="Thumb 4" data-caption="Participating in a Hackathon">
+                    <img src="../images/aboutme/image7.png" class="thumbnail" alt="Thumb 4" data-caption="Accenture Celebrates Excellence Award">
+                    <img src="../images/aboutme/image8.png" class="thumbnail" alt="Thumb 4" data-caption="Women Empowerment Event at Accenture">
+                    <img src="../images/aboutme/image9.png" class="thumbnail" alt="Thumb 4" data-caption="Northeastern University Campus">
+                    <img src="../images/aboutme/image10.png" class="thumbnail" alt="Thumb 4" data-caption="Organizing Women in Data Science Event at DAESO">
+                    <img src="../images/aboutme/image11.png" class="thumbnail" alt="Thumb 4" data-caption="Teaching Assstants for Data Mining Course">
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section class="hobbies-section">
+            <h2>Hobbies</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <img src="../images/hobbies/travel.jpeg" alt="Travel">
+                    <p>Travel</p>
+                </div>
+                <div class="hobby-card">
+                    <img src="../images/hobbies/dance.jpeg" alt="Dance">
+                    <p>Dance</p>
+                </div>
+                <div class="hobby-card">
+                    <img src="../images/hobbies/yoga.jpg" alt="Yoga">
+                    <p>Yoga</p>
+                </div>
+                <div class="hobby-card">
+                    <img src="../images/hobbies/cooking.jpg" alt="Cooking">
+                    <p>Cooking</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-title">Reach out:</p>
+        <div class="footer-links">
+            <a href="mailto:anshaish2009@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+            <a href="https://www.linkedin.com/in/anshitaaishwarya" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/anshi1995" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </footer>
+
+  <!-- JS -->
+  <script src="../js/loadAboutMe.js"></script>
+
+</body>
+</html>
